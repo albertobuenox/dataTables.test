@@ -1,3 +1,6 @@
+![Logo de la librería de Js DataTables](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDTPv_M5wltDDv7qTzOU5n0d7lr_MwYkO0A&s)
+<img src="https://lasalledonostia.com/wp-content/uploads/2022/07/La_Salle_Donostia@2x.png" alt="Logo de La Salle Donostia" width="300"/>
+
 # **Prueba de Estructura con Templates y PHP**
 
 Este proyecto es una prueba práctica para replicar la estructura y metodología de trabajo utilizada en mi actual empresa. La implementación está basada en **templates HTML** y **PHP plano**, sin el uso de frameworks, para cargar la lógica de base de datos y empaquetar las plantillas HTML de manera eficiente.
@@ -26,7 +29,7 @@ La estructura modular y organizada del proyecto es la siguiente:
 │   ├── cabecera.html     # Plantilla para la cabecera.
 │   ├── cuerpo.html       # Plantilla para el cuerpo principal.
 │   └── pie.html          # Plantilla para el pie de página.
-
+```
 
 # Descripción de la Estructura
 - **templates/:** Contiene las plantillas HTML reutilizables:
