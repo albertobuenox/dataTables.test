@@ -1,7 +1,7 @@
 <div style="text-align: center;">
-  <img src="https://lasalledonostia.com/wp-content/uploads/2022/07/La_Salle_Donostia@2x.png" alt="Logo de La Salle Donostia" width="300"/>
+  <img src="https://lasalledonostia.com/wp-content/uploads/2022/07/La_Salle_Donostia@2x.png" alt="Logo de La Salle Donostia" width="300" style="display: block; margin: 0 auto;"/>
   <br />
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDTPv_M5wltDDv7qTzOU5n0d7lr_MwYkO0A&s" alt="Logo de la librería de Js DataTables"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDTPv_M5wltDDv7qTzOU5n0d7lr_MwYkO0A&s" alt="Logo de la librería de Js DataTables" style="display: block; margin: 0 auto;"/>
 </div>
 
 # **Prueba de Estructura con Templates y PHP**
