@@ -4,7 +4,7 @@
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDTPv_M5wltDDv7qTzOU5n0d7lr_MwYkO0A&s" alt="Logo de la librería de Js DataTables" style="display: block; margin: 0 auto;"/>
 </div>
 
-# **Prueba de Estructura con Templates y PHP**
+# **TEST de Estructura con Templates y PHP con DATATABLES**
 
 Este proyecto es una prueba práctica para replicar la estructura y metodología de trabajo utilizada en mi actual empresa. La implementación está basada en **templates HTML** y **PHP plano**, sin el uso de frameworks, para cargar la lógica de base de datos y empaquetar las plantillas HTML de manera eficiente.
 
