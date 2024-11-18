@@ -1,0 +1,12 @@
+/* Estilo de la tabla para hacerla responsiva */
+@media screen and (max-width: 768px) {
+    #miTabla {
+        font-size: 14px; /* Reducción del tamaño de la fuente en pantallas pequeñas */
+    }
+
+    /* Asegurar que la tabla se desplace horizontalmente en pantallas pequeñas */
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+}

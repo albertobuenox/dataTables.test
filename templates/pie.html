@@ -1,0 +1,40 @@
+    <footer>
+        <div class="cajafooter">
+            <span  style="color: #ecb41b !important;  text-align: center;">
+                HHEECC La Salle
+            </span>
+            <br>
+            <a class="salir" href="/logout.php"><i class="fa-solid fa-power-off"></i></a>
+        </div>
+        <span class="textoLegal menuMobile">
+            <a class="contenidoLegal" href="/aviso_legal_es.html">Aviso</a> |
+            <a class="contenidoLegal" href="/cookies_es.html">Cookies</a> |
+            <a class="contenidoLegal" href="/privacidad_es.html">Privacidad</a>
+        </span>
+    </footer>
+</body>
+
+<script>
+    $(document).ready(function() {
+        $('#miTabla').DataTable({
+            language: {
+                  infoEmpty: 'No entries to show'
+             },
+            processing: true,
+            serverSide: true,
+            searching: true,
+            ajax: {
+                url: '../home/ajax.php', // URL de tu script PHP
+                type: 'POST'
+            },
+            columns: [
+                { data: 'id' },
+                { data: 'Nombre' },
+                { data: 'Apellidos' },
+                { data: 'CodigoPostal' },
+                { data: 'Direccion' },
+                { data: 'Sexo' }
+            ]
+        });
+    });
+</script>

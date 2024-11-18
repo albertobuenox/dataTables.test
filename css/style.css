@@ -1,0 +1,189 @@
+a { color: #f87af2 !important; }
+        /* Fondo general de la web */
+        * {
+            color: rgb(31, 31, 31) !important;
+        }
+        
+        body {
+            background-color: #3d3d3d !important; /* Gris oscuro casi negro */
+            color: #fff; /* Texto blanco para contraste */
+            font-family: Arial, sans-serif; /* Fuente general */
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Contenedor de la tabla */
+        .table-container {
+            width: 80%; /* El ancho del contenedor es 80% de la pantalla */
+            margin: 50px auto; /* Centrado horizontal y margen superior de 50px */
+            background-color: rgb(210, 210, 210) !important; /* Gris más claro para el fondo del contenedor */
+            border-radius: 10px; /* Bordes redondeados de 10px */
+            padding: 20px !important; /* Espaciado interno */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+        
+        /* Estilo para la tabla */
+        #miTabla {
+            width: 100% !important; /* La tabla ocupa todo el espacio disponible dentro del contenedor */
+            border-collapse: collapse; /* Elimina los espacios entre celdas */
+            margin-bottom: 10px; /* Margen inferior de 10px para los botones de paginación */
+        }
+        
+        /* Estilo del encabezado (thead) */
+        #miTabla thead {
+            background-color: #7a7a7a; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+        
+        /* Estilo de las filas (tbody) */
+        #miTabla tbody {
+            background-color: #f5f5f5; /* Gris muy claro para las filas */
+            color: #333; /* Color de texto oscuro */
+        }
+        
+        /* Estilo de las celdas */
+        #miTabla th, #miTabla td {
+            padding: 12px; /* Espaciado en las celdas */
+            text-align: left; /* Alineación del texto */
+        }
+        
+        /* Resaltado de las filas cuando el cursor pasa sobre ellas */
+        #miTabla tbody tr:hover {
+            background-color: #e0e0e0; /* Gris más claro al pasar el cursor */
+        }
+        
+        /* Estilos para el campo de búsqueda */
+        .dataTables_filter input {
+            background-color:  #f4f4f4 !important; /* Gris claro */
+            border: 1px solid #ccc; /* Borde gris */
+            padding: 5px 10px !important;
+            margin-bottom: 20px !important;
+            margin-left: 10px !important;
+            border-radius: 5px !important;
+            font-size: 14px;
+        }
+        
+        /* Estilos para el slider de número de filas (paginación) */
+        .dataTables_length select {
+            background-color: #f4f4f4 !important; /* Gris claro */
+            border: 1px solid #ccc; /* Borde gris */
+            padding: 10px  5px!important;
+            font-size: 14px;
+            width: 60px;
+            border-radius: 5px !important;
+        }
+
+        /* Reducir el padding de los botones de paginación */
+        .dataTables_paginate .paginate_button {
+        padding: 6px 12px !important;
+        margin: 0px 10px 0px 10px; /* Reducir padding */
+        }
+
+        
+        /*FOOTER*/
+        footer {
+            position: static;
+            bottom: 0;
+            width: 100%;
+            background-color: #2c2c2c; /* Gris oscuro */
+            color: #fff !important; /* Texto blanco */
+            padding: 15px 0; /* Espaciado arriba y abajo */
+            text-align: center; /* Centrar todo el contenido dentro del footer */
+            z-index: 1000; /* Asegura que el footer siempre esté visible */
+        }
+        
+        /* Caja que contiene el texto y el enlace de salida */
+        .cajafooter {
+            color: #b0b0b0 !important; /* Gris claro para los enlaces legales */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px; /* Espaciado entre el texto y el icono */
+            font-size: 16px;
+        }
+        
+        /* Estilo del enlace de salida (logout) */
+        .salir {
+            color: #ecb41b !important; /* Color amarillo consistente con el esquema */
+            font-size: 20px; /* Icono un poco más grande */
+            text-decoration: none;
+        }
+        
+        /* Estilo de los enlaces legales */
+        .textoLegal {
+            display: block;
+            margin-top: 10px; /* Separación entre el contenido principal y los enlaces legales */
+            font-size: 14px;
+            color: #b0b0b0 !important; /* Gris claro para los enlaces legales */
+        }
+        
+        /* Estilo para los enlaces dentro del footer */
+        .contenidoLegal {
+            color: #ecb41b !important; /* Color amarillo */
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        
+        .contenidoLegal:hover {
+            text-decoration: underline; /* Subrayado al pasar el cursor */
+        }
+        
+        /* Estilo para el texto en el footer */
+        .cajafooter span {
+            font-weight: bold;
+        }
+        
+        /* Aseguramos que el footer quede siempre en la parte inferior */
+        body {
+            margin-bottom: 70px; /* Asegura que el contenido no se solape con el footer */
+        }
+        
+
+        /*HEADER*/
+        /* Estilos generales para la página */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #3d3d3d; /* Fondo gris oscuro */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Header fijo en la parte superior */
+        .fixed-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            text-align: center;
+            padding: 10px 0; /* Espaciado vertical */
+        }
+
+        /* Imagen dentro del header */
+        .header-image {
+            max-width: 100%; /* Hace que la imagen sea responsive */
+            height: auto; /* Mantiene la proporción de la imagen */
+            max-height: 100px; /* Limita la altura máxima de la imagen */
+            filter: brightness(0) saturate(100%) invert(1);
+
+        }
+
+        /* Contenido de la página */
+        .content {
+            margin-top: 120px; /* Da espacio debajo del header fijo */
+            padding: 20px;
+            text-align: center; /* Centra el contenido */
+        }
+
+        /* Estilo para el texto "Bienvenido a" */
+        .highlight {
+            color: #ecb41b; /* Amarillo para "Bienvenido a" */
+        }
+
+        /* Estilo para "La Salle" */
+        .bienvenido {
+            color: #c8c8c8!important; /* Amarillo para "La Salle" */
+            font-size: 20px; /* Tamaño de fuente grande */
+        }
+
+
